@@ -10,3 +10,6 @@ console.log(Color["Red"]) //0
 
 enum Color1 { Red = 5, Green, Blue };
 console.log(Color1);// { '5': 'Red', '6': 'Green', '7': 'Blue', Red: 5, Green: 6, Blue: 7 }
+
+enum EmptyEnum { };
+console.log("EmptyEnum", EmptyEnum); // {}

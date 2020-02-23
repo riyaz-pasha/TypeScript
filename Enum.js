@@ -20,3 +20,8 @@ var Color1;
 })(Color1 || (Color1 = {}));
 ;
 console.log(Color1); // { '5': 'Red', '6': 'Green', '7': 'Blue', Red: 5, Green: 6, Blue: 7 }
+var EmptyEnum;
+(function (EmptyEnum) {
+})(EmptyEnum || (EmptyEnum = {}));
+;
+console.log("EmptyEnum", EmptyEnum);
