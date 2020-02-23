@@ -7,3 +7,6 @@ console.log(isEmployee);
 
 let nullVar: null = null;
 console.log("typeof nullVar", typeof nullVar)
+
+let undefinedVar = undefined;
+console.log("typeof undefinedVar", typeof undefinedVar);

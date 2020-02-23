@@ -6,3 +6,5 @@ isEmployee = "No"; // in type script it'll throw an error but in js it will stil
 console.log(isEmployee);
 var nullVar = null;
 console.log("typeof nullVar", typeof nullVar);
+var undefinedVar = undefined;
+console.log("typeof undefinedVar", typeof undefinedVar);
