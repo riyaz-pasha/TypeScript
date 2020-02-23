@@ -1,3 +1,3 @@
 export { }
-let isEmployee = true;
+let isEmployee: boolean = true;
 console.log(typeof isEmployee);
