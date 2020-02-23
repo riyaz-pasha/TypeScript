@@ -15,3 +15,6 @@ let isNew: boolean = null;
 let empName: string = undefined;
 console.log("typeof isNew", typeof isNew)
 console.log("typeof empName", typeof empName)
+
+let array1: number[] = [1, 2, 3,]
+let array2: Array<number> = [1, 2, 3,]

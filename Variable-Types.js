@@ -12,3 +12,5 @@ var isNew = null;
 var empName = undefined;
 console.log("typeof isNew", typeof isNew);
 console.log("typeof empName", typeof empName);
+var array1 = [1, 2, 3,];
+var array2 = [1, 2, 3,];
