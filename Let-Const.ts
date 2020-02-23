@@ -4,6 +4,9 @@ const PI = 3.14;
 let Age = 20;
 
 if (true) {
+    let Age = 10;
+}
+if (true) {
     let Age = 30;
 }
 if (true) {
