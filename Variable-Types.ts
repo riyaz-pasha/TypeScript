@@ -18,3 +18,6 @@ console.log("typeof empName", typeof empName)
 
 let array1: number[] = [1, 2, 3,]
 let array2: Array<number> = [1, 2, 3,]
+
+// Tuples
+let tuple1: [number, string, boolean] = [1, "One", true];
