@@ -10,3 +10,8 @@ console.log("typeof nullVar", typeof nullVar)
 
 let undefinedVar = undefined;
 console.log("typeof undefinedVar", typeof undefinedVar);
+
+let isNew: boolean = null;
+let empName: string = undefined;
+console.log("typeof isNew", typeof isNew)
+console.log("typeof empName", typeof empName)

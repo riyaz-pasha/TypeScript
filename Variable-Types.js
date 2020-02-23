@@ -8,3 +8,7 @@ var nullVar = null;
 console.log("typeof nullVar", typeof nullVar);
 var undefinedVar = undefined;
 console.log("typeof undefinedVar", typeof undefinedVar);
+var isNew = null;
+var empName = undefined;
+console.log("typeof isNew", typeof isNew);
+console.log("typeof empName", typeof empName);
