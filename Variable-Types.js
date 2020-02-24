@@ -16,3 +16,11 @@ var array1 = [1, 2, 3,];
 var array2 = [1, 2, 3,];
 // Tuples
 var tuple1 = [1, "One", true];
+//Type inference take place while initialize variable
+var newVar = true;
+newVar = 10; // Typescript warns becuase variable is initialized with type boolean
+newVar = "ten";
+var newVar2; // in this case it doesn't throw any error because it explicitly defines type as any
+newVar2 = true;
+newVar2 = 10;
+newVar2 = "Ten";

@@ -21,3 +21,13 @@ let array2: Array<number> = [1, 2, 3,]
 
 // Tuples
 let tuple1: [number, string, boolean] = [1, "One", true];
+
+//Type inference take place while initialize variable
+let newVar = true;
+newVar = 10; // Typescript warns becuase variable is initialized with type boolean
+newVar = "ten";
+
+let newVar2; // in this case it doesn't throw any error because it explicitly defines type as any
+newVar2 = true;
+newVar2 = 10;
+newVar2 = "Ten";
