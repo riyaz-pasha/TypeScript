@@ -1,6 +1,6 @@
 export { }
 class Employee {
-    empName: string;
+    private empName: string;
     constructor(name: string) {
         this.empName = name;
     }
